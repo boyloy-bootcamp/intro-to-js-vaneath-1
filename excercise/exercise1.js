@@ -14,7 +14,10 @@ console.log(b); // Output: 5
  */
 
 function variableManipulation(a, b) {
-  // Your code here
+  let temp = a;
+  a = b;
+  b = temp;
+  return [a, b];
 }
 
 module.exports = variableManipulation;

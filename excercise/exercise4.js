@@ -18,7 +18,7 @@ console.log(even2); // Output: false
  */
 
 function isEven(num) {
-  // Your code here
+  return num % 2 === 0;
 }
 
 module.exports = isEven;
